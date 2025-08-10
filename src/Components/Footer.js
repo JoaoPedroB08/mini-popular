@@ -38,10 +38,10 @@ function Footer() {
           <div className="footer-coluna social-coluna">
             <h4>Contatos</h4>
             <div className="social-icons">
-              <a href="#"><FaInstagram /></a>
-              <a href="#"><FaWhatsapp /></a>
-              <a href="#"><FaEnvelope /></a>
-              <a href="#"><FaFacebookF /></a>
+              <a href="https://facebook.com"><FaInstagram /></a>
+              <a href="https://facebook.com"><FaWhatsapp /></a>
+              <a href="https://facebook.com"><FaEnvelope /></a>
+              <a href="https://facebook.com"><FaFacebookF /></a>
             </div>
           </div>
         </div>
@@ -52,5 +52,6 @@ function Footer() {
     </footer>
   );
 }
+
 
 export default Footer;
