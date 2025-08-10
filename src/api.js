@@ -7,7 +7,7 @@ if (!clientId) {
 }
 
 const apiClient = axios.create({
-  baseURL: 'http://localhost:3001/api', 
+  baseURL: 'https://api-mini-popular.vercel.app', 
 });
 
 apiClient.interceptors.request.use(config => {
@@ -24,5 +24,6 @@ const api = {
   patch: (url, data, config) => apiClient.patch(url, data, config),
   delete: (url, config) => apiClient.delete(url, config),
 };
+
 
 export default api;
